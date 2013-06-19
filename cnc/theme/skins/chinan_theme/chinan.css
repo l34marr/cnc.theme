@@ -1,0 +1,27 @@
+#portal-header {
+  background-color: #5b4531;
+}
+
+#portal-globalnav {
+  background: #5b4531;
+}
+#portal-globalnav li a {
+  font: bold 14px arial, STHeiti, pmingliu, sans-serif;
+  color: #f9f4e1;
+  background: #5b4531;
+  padding: 0.5em 1em 1em 1em;
+  border-top: 1px solid #5b4531;
+  border-right: 0.1em solid #5b4531;
+}
+#portal-globalnav .selected a,
+#portal-globalnav a:hover {
+  background: #534a42;
+}
+#portal-globalnav .selected a:hover {
+  background: #cecaca;
+  color: #d43a32;
+}
+
+ul.submenu a.state-published:hover {
+  color: #d43a32 !important;
+}
