@@ -25,3 +25,14 @@
 ul.submenu a.state-published:hover {
   color: #d43a32 !important;
 }
+
+#portal-footer {
+  background: #5b4531;
+}
+#portal-footer p,
+#portal-footer a {
+  color: White;
+}
+#portal-footer a:hover {
+  color: #d8c0a8;
+}
