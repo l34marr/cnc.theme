@@ -13,17 +13,31 @@
   border-top: 1px solid #5b4531;
   border-right: 0.1em solid #5b4531;
 }
-#portal-globalnav .selected a,
-#portal-globalnav a:hover {
+#portal-globalnav .selected a {
   background: #534a42;
 }
+#portal-globalnav a:hover,
 #portal-globalnav .selected a:hover {
-  background: #cecaca;
   color: #d43a32;
+  background: #cecaca;
 }
 
-ul.submenu a.state-published:hover {
+#portal-globalnav ul.submenu a.state-published {
+  color: #f9f4e1 !important;
+}
+#portal-globalnav ul.submenu a.state-published:hover {
   color: #d43a32 !important;
+}
+#portal-globalnav ul.submenu li a {
+  border-top: 1px solid #5b4531;
+}
+#portal-globalnav ul.submenu li a:hover {
+  border-top: 1px solid #cecaca;
+  border-right: 1px solid #cecaca;
+}
+
+.searchSection label:hover {
+  color: White;
 }
 
 #portal-footer {
