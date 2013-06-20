@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+#portal-logo {
+  margin: 0;
+}
+
 #portal-globalnav {
   background: #5b4531;
 }
@@ -46,13 +50,30 @@
   color: White;
 }
 
+#viewlet-above-content,
+.documentEditable,
+#content,
+#viewlet-below-content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#portal-footer-wrapper,
 #portal-footer {
   background: #5b4531;
 }
+#portal-siteactions,
+#portal-footer,
+#portal-colophon {
+  width: 960px;
+  margin: 0 auto;
+}
 #portal-footer p,
-#portal-footer a {
+#portal-footer a,
+#portal-siteactions a {
   color: White;
 }
-#portal-footer a:hover {
-  color: #d8c0a8;
+#portal-footer a:hover,
+#portal-siteactions a:hover {
+  color: #d8c0a8 !important;
 }
