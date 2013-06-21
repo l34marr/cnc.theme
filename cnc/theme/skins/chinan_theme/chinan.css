@@ -50,9 +50,7 @@
   color: White;
 }
 
-#viewlet-above-content,
-.documentEditable,
-#viewlet-below-content {
+#portal-columns {
   width: 960px;
   margin: 0 auto;
 }
