@@ -41,12 +41,12 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/news/communion'
-        return catalog(portal_type='Event',
-                       review_state='published',
-                       path=path,
-                       sort_on='start',
-                       sort_order='reverse',
-                       sort_limit=3)[:3]
+        brain = catalog(portal_type='Event',
+                        review_state='published',
+                        path=path,
+                        sort_on='start',
+                        sort_order='reverse',
+                        sort_limit=3)[:3]
         res = []
         for b in brain:
             sdate = str(b.start)[:10].replace('/','-')
@@ -60,12 +60,12 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/news/meeting'
-        return catalog(portal_type='Event',
-                       review_state='published',
-                       path=path,
-                       sort_on='start',
-                       sort_order='reverse',
-                       sort_limit=3)[:3]
+        brain = catalog(portal_type='Event',
+                        review_state='published',
+                        path=path,
+                        sort_on='start',
+                        sort_order='reverse',
+                        sort_limit=3)[:3]
         res = []
         for b in brain:
             sdate = str(b.start)[:10].replace('/','-')
@@ -79,12 +79,12 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/news/board'
-        return catalog(portal_type='Event',
-                       review_state='published',
-                       path=path,
-                       sort_on='start',
-                       sort_order='reverse',
-                       sort_limit=3)[:3]
+        brain = catalog(portal_type='Event',
+                        review_state='published',
+                        path=path,
+                        sort_on='start',
+                        sort_order='reverse',
+                        sort_limit=3)[:3]
         res = []
         for b in brain:
             sdate = str(b.start)[:10].replace('/','-')
@@ -98,12 +98,12 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/news/christian'
-        return catalog(portal_type='Event',
-                       review_state='published',
-                       path=path,
-                       sort_on='start',
-                       sort_order='reverse',
-                       sort_limit=3)[:3]
+        brain = catalog(portal_type='Event',
+                        review_state='published',
+                        path=path,
+                        sort_on='start',
+                        sort_order='reverse',
+                        sort_limit=3)[:3]
         res = []
         for b in brain:
             sdate = str(b.start)[:10].replace('/','-')
