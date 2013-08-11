@@ -1,0 +1,94 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="cnc.theme">
+<body>
+
+<metal:content-core fill-slot="main">
+  <metal:content-core define-macro="content-core">
+    <metal:field use-macro="python:context.widget('text', mode='view')">
+      Body text
+    </metal:field>
+
+<h1>Recent News</h1>
+
+<div class="section group">
+<div class="col span-1_5">
+<h2>Bulletin</h2>
+<tal:news_bulletin
+ tal:repeat="item view/news_bulletin">
+<div>
+  <a href=""
+   tal:attributes="href python:item[2];
+                   title python:item[0]">
+    <span tal:content="python:item[0]">Text</span><br />
+    <span tal:content="python:item[1]">Date</span>
+  </a>
+</div>
+</tal:news_bulletin>
+</div>
+<div class="col span-1_5">
+<h2>Communion</h2>
+<tal:news_communion
+ tal:repeat="item view/news_communion">
+<div>
+  <a href=""
+   tal:attributes="href python:item[2];
+                   title python:item[0]">
+    <span tal:content="python:item[0]">Text</span><br />
+    <span tal:content="python:item[1]">Date</span>
+  </a>
+</div>
+</tal:news_communion>
+</div>
+<div class="col span-1_5">
+<h2>Meeting</h2>
+<tal:news_meeting
+ tal:repeat="item view/news_meeting">
+<div>
+  <a href=""
+   tal:attributes="href python:item[2];
+                   title python:item[0]">
+    <span tal:content="python:item[0]">Text</span><br />
+    <span tal:content="python:item[1]">Date</span>
+  </a>
+</div>
+</tal:news_meeting>
+</div>
+<div class="col span-1_5">
+<h2>Board</h2>
+<tal:news_board
+ tal:repeat="item view/news_board">
+<div>
+  <a href=""
+   tal:attributes="href python:item[2];
+                   title python:item[0]">
+    <span tal:content="python:item[0]">Text</span><br />
+    <span tal:content="python:item[1]">Date</span>
+  </a>
+</div>
+</tal:news_board>
+</div>
+<div class="col span-1_5">
+<h2>Christian</h2>
+<tal:news_christian
+ tal:repeat="item view/news_christian">
+<div>
+  <a href=""
+   tal:attributes="href python:item[2];
+                   title python:item[0]">
+    <span tal:content="python:item[0]">Text</span><br />
+    <span tal:content="python:item[1]">Date</span>
+  </a>
+</div>
+</tal:news_christian>
+</div>
+
+  </metal:content-core>
+</metal:content-core>
+
+</body>
+</html>

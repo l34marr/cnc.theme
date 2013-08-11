@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+  <browser:page
+      name="homepage"
+      for="Products.ATContentTypes.interface.IATDocument"
+      class=".view.Homepage"
+      template="homepage.pt"
+      permission="zope2.View"
+      />
+
+</configure>
