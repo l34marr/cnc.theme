@@ -2,6 +2,20 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser">
 
+  <interface
+      name="ChiNan Theme"
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      />
+
+  <browser:viewlet
+      name="plone.personal_bar"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class=".viewlets.PersonalBarViewlet"
+      permission="zope2.View"
+      layer=".interfaces.IThemeSpecific"
+      />
+
   <browser:page
       name="homepage"
       for="Products.ATContentTypes.interface.IATDocument"
