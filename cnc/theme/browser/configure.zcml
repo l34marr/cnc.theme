@@ -16,6 +16,14 @@
       layer=".interfaces.IThemeSpecific"
       />
 
+  <browser:viewlet
+      name="plone.footer"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".viewlets.FooterViewlet"
+      permission="zope2.View"
+      layer=".interfaces.IThemeSpecific"
+      />
+
   <browser:page
       name="homepage"
       for="Products.ATContentTypes.interface.IATDocument"

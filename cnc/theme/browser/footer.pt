@@ -1,0 +1,57 @@
+<div id="portal-footer"
+ i18n:domain="plone">
+  
+  <section class="homepage_widgets_bg clearfix"
+   tal:define="portal_url context/@@plone_portal_state/portal_url">
+    <div class="container clearfix"> 
+      <div class="foot-column ">
+        <div class="foot-title"><span class="foot-headline">主日聚會時間</span></div>
+        <div class="clear padding3"></div>
+        <a href="#"
+         tal:attributes="href string:${portal_url}/reunite/meet">
+          <img class="alignleft MT0"
+           tal:attributes="src string:${portal_url}/images/meet.jpg" /></a>
+        <div class="block">
+          <p>■ 台語堂<br />
+            <span class="meeting-date">週日上午09:00~10:30</span></p>
+          <p>■ 華語堂<br />
+            <span class="meeting-date">週日上午09:00~10:30</span></p>
+
+          <p>■ 兒童主日學<br />
+            <span class="meeting-date">週日上午09:00~10:45</span></p>
+        </div>
+      </div>
+      <div class="foot-column last">
+        <div class="foot-title"><span class="foot-headline">每日金句</span>
+        <span class="more-verse">
+        <a href="#"
+         tal:attributes="href string:${portal_url}/history/bible">更多聖經金句</a></span></div>
+        <div class="clear padding3"></div>
+        <a href="#"
+         tal:attributes="href string:${portal_url}/history/bible">
+          <img class="alignleft MT0"
+           tal:attributes="src string:${portal_url}/images/gold-words.png" /></a>
+        <div class="block">
+        <tal:quote
+         define="results python: context.portal_catalog(portal_type='cnc.Quote');
+                 num_of_items python:len(results);
+                 random python:modules['random'];
+                 random_item python: num_of_items and random.choice(results) or None">
+        <p tal:content="random_item/Title">Quotation</p>
+        <span class="bible-from" tal:content="random_item/Description">Citation</span>
+        </tal:quote>
+        </div>
+        <div class="clear padding20"></div>
+        <a href="http://www.chi-nanchurch.tw">
+          <img class="alignleft MT0"
+           tal:attributes="src string:${portal_url}/images/www.png" /></a>
+        <div class="block">
+          <p><a href="http://www.chi-nanchurch.tw">www.chi-nanchurch.tw</a></p>
+          <p><a href="http://www.chi-nanchurch.tw">www.濟南長老教會.tw</a></p>
+        </div>
+        <div class="clear padding20"></div>
+      </div>     
+    </div>
+  </section>
+  
+</div>
