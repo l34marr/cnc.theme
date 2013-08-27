@@ -10,7 +10,7 @@
         <a href="#"
          tal:attributes="href string:${portal_url}/reunite/meet">
           <img class="alignleft MT0"
-           tal:attributes="src string:${portal_url}/images/meet.jpg" /></a>
+           tal:attributes="src string:${portal_url}/sunday-worship.jpg" /></a>
         <div class="block">
           <p>■ 台語堂<br />
             <span class="meeting-date">週日上午09:00~10:30</span></p>
@@ -30,7 +30,7 @@
         <a href="#"
          tal:attributes="href string:${portal_url}/history/bible">
           <img class="alignleft MT0"
-           tal:attributes="src string:${portal_url}/images/gold-words.png" /></a>
+           tal:attributes="src string:${portal_url}/bible-icon.png" /></a>
         <div class="block">
         <tal:quote
          define="results python: context.portal_catalog(portal_type='cnc.Quote');
