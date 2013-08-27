@@ -24,6 +24,14 @@
       layer=".interfaces.IThemeSpecific"
       />
 
+  <browser:viewlet
+      name="plone.colophon"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      template="colophon.pt"
+      permission="zope2.View"
+      layer=".interfaces.IThemeSpecific"
+      />
+
   <browser:page
       name="homepage"
       for="Products.ATContentTypes.interface.IATDocument"
