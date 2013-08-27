@@ -44,7 +44,7 @@
         <div class="clear padding20"></div>
         <a href="http://www.chi-nanchurch.tw">
           <img class="alignleft MT0"
-           tal:attributes="src string:${portal_url}/images/www.png" /></a>
+           tal:attributes="src string:${portal_url}/site-icon.png" /></a>
         <div class="block">
           <p><a href="http://www.chi-nanchurch.tw">www.chi-nanchurch.tw</a></p>
           <p><a href="http://www.chi-nanchurch.tw">www.濟南長老教會.tw</a></p>
