@@ -49,7 +49,7 @@
 <div id="apd-personaltool"
  tal:define="portal_url context/@@plone_portal_state/portal_url">
   <a target="_blank" href="https://www.facebook.com/chinanchurch">
-  <img tal:attributes="src string:${portal_url}/images/fb_icon.png" /></a> |
+  <img tal:attributes="src string:${portal_url}/facebook-icon.png" /></a> |
   <a href="#"
    tal:attributes="href string:${portal_url}">首頁</a> |
   <a href="#"
