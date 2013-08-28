@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cnc.theme\n"
+"POT-Creation-Date: 2013-08-28 06:32+0000\n"
+"PO-Revision-Date: 2013-08-28 13:58+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cnc.theme\n"
+
+#: ./browser/homepage.pt:68
+msgid "Board"
+msgstr "長執消息"
+
+#: ./browser/homepage.pt:20
+msgid "Bulletin"
+msgstr "活動訊息"
+
+#: ./browser/homepage.pt:84
+msgid "Christian"
+msgstr "教界消息"
+
+#: ./browser/homepage.pt:36
+msgid "Communion"
+msgstr "肢體交通"
+
+#: ./browser/homepage.pt:52
+msgid "Meeting"
+msgstr "開會通知"
+
+#. Default: "Recent News"
+#: ./browser/homepage.pt:16
+msgid "homepage_recent_news"
+msgstr "最新消息"
+
