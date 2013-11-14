@@ -1,9 +1,10 @@
 #portal-top {
-  background-color: #5b4531;
+  background-color: #3e2306;
 }
 
 #portal-header {
-  width: 960px;
+  background: url('banner-header.png') center right no-repeat;
+  width: 990px;
   margin: 0 auto;
 }
 
@@ -12,19 +13,20 @@
 }
 
 #portal-globalnav {
-  background: #5b4531;
+  background: #3e2306;
 }
 #portal-globalnav li a {
-  font: bold 14px arial, STHeiti, pmingliu, sans-serif;
+  font: bold 14px "Open Sans", "微軟正黑體", sans-serif;
   color: #f9f4e1;
-  background: #5b4531;
-  padding: 0.5em 1em 1em 1em;
+  background: #473322;
+  padding: 0.7em 0.9em 0.7em 1em;
   border-top: 1px solid #5b4531;
   border-right: 0.1em solid #5b4531;
+  letter-spacing: 0.1em;
   min-width: 5em;
 }
 #portal-globalnav .selected a {
-  background: #534a42;
+  background: #67513d;
 }
 #portal-globalnav a:hover,
 #portal-globalnav .selected a:hover {
