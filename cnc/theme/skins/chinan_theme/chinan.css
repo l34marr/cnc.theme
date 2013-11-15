@@ -1,3 +1,11 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  border: 0 none;
+  font-family: "Open Sans", "微軟正黑體", sans-serif;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+}
+
 #portal-top {
   background-color: #3e2306;
 }
@@ -10,6 +18,13 @@
 
 #portal-logo {
   margin: 0;
+}
+
+#apd-personaltool {
+  float: right;
+  color: #d9d0ae;
+  font-size: 14px;
+  margin-top: 35px;
 }
 
 #portal-globalnav {
@@ -75,4 +90,41 @@
 #portal-footer a:hover,
 #portal-siteactions a:hover {
   color: #d8c0a8 !important;
+}
+
+#portal-personaltools-wrapper a {
+	color: #D9D0AE;
+}
+#portal-personaltools {
+	color: #999999;
+	background: #3d2305;
+	padding: 0.25em 0.3em;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	margin-left: -3px;
+	margin-top: 35px;
+	z-index: 3; /* personaltools should be above #portal-header (with z-index: 2) */
+	border-bottom-right-radius: 0em;
+	border-bottom-left-radius: 0em;
+	-webkit-border-bottom-right-radius: 0em;
+	-webkit-border-bottom-left-radius: 0em;
+	-moz-border-radius-bottomleft: 0em;
+	-moz-border-radius-bottomright: 0em;
+}
+#portal-personaltools dd {
+	background: none repeat scroll 0 0 #C3540F;
+	box-shadow: 3px 3px 8px 0 #000;
+	padding-bottom: 0.5em;
+	right: 8px;
+}
+#portal-personaltools dd a:hover {
+	background: none repeat scroll 0 0 #AEA398;
+	color: #FFFFFF;
+}
+dl.actionMenu.activated dd {
+	border-radius: 0.3em 0.3em 0.3em 0.3em;
+	margin-top: 7px;
+	min-width: 100%;
+	position: absolute;
+	width: 185px;
 }
