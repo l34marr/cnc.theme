@@ -186,7 +186,7 @@ blockquote {
   font-size: 90%;
 }
 #sidebar .sideblock {
-  background: url("images/porlet-point.png") no-repeat scroll -3px 2px transparent;
+  background: url("/++theme++cnc.theme/img/dot-grey.png") no-repeat scroll -3px 2px transparent;
   padding-bottom: 1px;
   padding-left: 17px;
 }
@@ -1766,4 +1766,51 @@ span.timezone {
 }
 .section-front-page #portal-breadcrumbs {
   display: none;
+}
+div#a40feec80e3e4dc8b17090c5141c17e2 div.tile-header,
+div#cc65c9667319490b85e02940aa1a539d div.tile-header {
+  background-color: IndianRed;
+}
+div#d96aa8360f6f42b29c2733970cc9dadd div.tile-header,
+div#cbf387079f2041ca854a4e8c3f3dbff6 div.tile-header {
+  background-color: GoldenRod;
+}
+div#bc00049678c443e69a206bf0bc045f3d div.tile-header,
+div#e2da43a5e6cb4572876760953ce82076 div.tile-header {
+  background-color: OliveDrab;
+}
+div#eeb36531e8a349d88e05825bb6cba71f div.tile-header,
+div#fdecd76b0d3e41a7abbf34d1f196c223 div.tile-header {
+  background-color: LightSeaGreen;
+}
+div#d75e61d936fc41b0ab2e38d732e0d52c div.tile-header,
+div#b1837a59a01241c29fff4185231e45e5 div.tile-header {
+  background-color: MediumBlue;
+}
+div.tile-header {
+  border-radius: 4px;
+}
+div.tile-header h2 {
+  color: White;
+  font-weight: bold;
+  margin-left: 1em;
+}
+.section-front-page div.collection-item h2 {
+  background: url("/++theme++cnc.theme/img/dot-grey.png") no-repeat;
+  padding-left: 1em;
+  margin-bottom: 3px;
+  line-height: 1em;
+}
+.section-bulletin div.tile-header h2 {
+  font-size: 20px;
+}
+.section-front-page div#content div.collection-item p {
+  padding-left: 1em;
+}
+.section-bulletin div#content div.collection-item p {
+  float: left;
+  width: 10em;
+}
+div#portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6368757263682f636f6e746163740a6d6170 dd.portletItem {
+  padding: 0;
 }
