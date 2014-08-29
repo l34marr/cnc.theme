@@ -128,3 +128,6 @@ dl.actionMenu.activated dd {
 	position: absolute;
 	width: 185px;
 }
+div.width-3 {
+  width: 18%;
+}
