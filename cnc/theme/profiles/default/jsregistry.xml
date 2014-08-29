@@ -19,7 +19,7 @@
 
 <!--
  <javascript
-    id="++resource++cnc.theme/static/main.js"
+    id="++resource++cnc.theme/js/main.js"
     cacheable="False" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False"/>
  -->
