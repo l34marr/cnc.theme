@@ -1,43 +1,46 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser="http://namespaces.zope.org/browser">
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:browser="http://namespaces.zope.org/browser">
 
   <interface
-      name="ChiNan Theme"
-      interface=".interfaces.IThemeSpecific"
-      type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      />
+    name="ChiNan Theme"
+    interface=".interfaces.IThemeSpecific"
+    type="zope.publisher.interfaces.browser.IBrowserSkinType" />
 
   <browser:viewlet
-      name="plone.personal_bar"
-      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-      class=".viewlets.PersonalBarViewlet"
-      permission="zope2.View"
-      layer=".interfaces.IThemeSpecific"
-      />
+    name="plone.personal_bar"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class=".viewlets.PersonalBarViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific" />
 
   <browser:viewlet
-      name="plone.footer"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".viewlets.FooterViewlet"
-      permission="zope2.View"
-      layer=".interfaces.IThemeSpecific"
-      />
+    name="plone.footer"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class=".viewlets.FooterViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific" />
 
   <browser:viewlet
-      name="plone.colophon"
-      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      template="colophon.pt"
-      permission="zope2.View"
-      layer=".interfaces.IThemeSpecific"
-      />
+    name="plone.colophon"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    template="colophon.pt"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific" />
 
   <browser:page
-      name="homepage"
-      for="Products.ATContentTypes.interface.IATDocument"
-      class=".view.Homepage"
-      template="homepage.pt"
-      permission="zope2.View"
-      />
+    for="*"
+    name="tinymce-jsonconfiguration"
+    class=".tinymce.TinyMCEBrowserView"
+    permission="zope2.View"
+    attribute="jsonConfiguration"
+    layer=".interfaces.IThemeSpecific" />
+
+  <browser:page
+    name="homepage"
+    for="Products.ATContentTypes.interface.IATDocument"
+    class=".view.Homepage"
+    template="homepage.pt"
+    permission="zope2.View" />
 
 </configure>
