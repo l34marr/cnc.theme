@@ -626,7 +626,7 @@ dl.portlet dt {
   margin-bottom: 15px;
 }
 .tileFooter {
-  background: url("images/all-arrow.png") no-repeat scroll 0 7px transparent;
+  background: url("/++theme++cnc.theme/img/dot-cross.png") no-repeat scroll 0 7px transparent;
   display: inline-block;
   margin-top: 5px;
   padding-left: 18px;
