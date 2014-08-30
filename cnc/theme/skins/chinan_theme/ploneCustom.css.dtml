@@ -1814,3 +1814,6 @@ div.tile-header h2 {
 div#portletwrapper-706c6f6e652e7269676874636f6c756d6e0a636f6e746578740a2f6368757263682f636f6e746163740a6d6170 dd.portletItem {
   padding: 0;
 }
+.subsection-bible div.tileItem p.tileFooter {
+  display: none;
+}
