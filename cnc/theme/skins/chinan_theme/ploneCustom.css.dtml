@@ -1767,7 +1767,7 @@ span.timezone {
 .section-front-page #portal-breadcrumbs {
   display: none;
 }
-div#a40feec80e3e4dc8b17090c5141c17e2 div.tile-header,
+div#b7344dbb7df34694b6cfa0edcde39bee div.tile-header,
 div#cc65c9667319490b85e02940aa1a539d div.tile-header {
   background-color: IndianRed;
 }
@@ -1795,17 +1795,24 @@ div.tile-header h2 {
   font-weight: bold;
   margin-left: 1em;
 }
+.collection-item {
+  border-bottom: 1px dotted #DDD;
+  margin-bottom: 8px;
+}
 .section-front-page div.collection-item h2 {
   background: url("/++theme++cnc.theme/img/dot-grey.png") no-repeat;
   padding-left: 1em;
   margin-bottom: 3px;
   line-height: 1em;
+  font-size: 14px;
 }
 .section-bulletin div.tile-header h2 {
   font-size: 20px;
 }
 .section-front-page div#content div.collection-item p {
+  margin: 0;
   padding-left: 1em;
+  font-size: 11px;
 }
 .section-bulletin div#content div.collection-item p {
   float: left;
