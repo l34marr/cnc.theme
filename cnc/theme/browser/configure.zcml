@@ -38,7 +38,7 @@
 
   <browser:page
     name="homepage"
-    for="Products.ATContentTypes.interface.IATDocument"
+    for="plone.app.contenttypes.interfaces.IDocument"
     class=".view.Homepage"
     template="homepage.pt"
     permission="zope2.View" />
