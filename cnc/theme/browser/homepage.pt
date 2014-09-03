@@ -9,17 +9,17 @@
 
 <metal:content-core fill-slot="main">
   <metal:content-core define-macro="content-core">
-    <metal:field use-macro="python:context.widget('text', mode='view')">
-      Body text
-    </metal:field>
+    <div id="parent-fieldname-text"
+     tal:condition="context/text"
+     tal:content="structure python:context.text.output_relative_to(view.context)" />
 <span class="clear padding15"></span>
 <h3 i18n:translate="homepage_recent_news">Recent News</h3>
 
 <ul id="list">
 <div class="col_1_3">
   <li><div class="news-title1" i18n:translate="">Bulletin</div>
-    <tal:news_bulletin
-     tal:repeat="item view/news_bulletin">
+    <tal:events
+     tal:repeat="item view/events">
     <div class="news-list">
       <a href=""
        tal:attributes="href python:item[2];
@@ -28,14 +28,14 @@
       </a>
       <span class="news-date" tal:content="python:item[1]">Date</span>
     </div>
-    </tal:news_bulletin>
-    <p class="news-more"><a href="news/bulletin" target="_blank" title=""><img src="more-content.png" /></a></p>
+    </tal:events>
+    <p class="news-more"><a href="bulletin/events" target="_blank" title=""><img src="more-content.png" /></a></p>
   </li>
 </div>
 <div class="col_1_3">
   <li><div class="news-title2" i18n:translate="">Communion</div>
-    <tal:news_communion
-     tal:repeat="item view/news_communion">
+    <tal:communion
+     tal:repeat="item view/communion">
     <div class="news-list">
       <a href=""
        tal:attributes="href python:item[2];
@@ -44,14 +44,14 @@
       </a>		   
       <span class="news-date" tal:content="python:item[1]">Date</span>
     </div>
-    </tal:news_communion>
-    <p class="news-more"><a href="news/communion" target="_blank" title=""><img src="more-content.png" /></a></p>
+    </tal:communion>
+    <p class="news-more"><a href="bulletin/communion" target="_blank" title=""><img src="more-content.png" /></a></p>
   </li>
 </div>
 <div class="col_1_3">
   <li><div class="news-title3" i18n:translate="">Meeting</div>
-    <tal:news_meeting
-     tal:repeat="item view/news_meeting">
+    <tal:meeting
+     tal:repeat="item view/meeting">
     <div class="news-list">
       <a href=""
        tal:attributes="href python:item[2];
@@ -60,14 +60,14 @@
       </a>		   
       <span class="news-date" tal:content="python:item[1]">Date</span>
     </div>
-    </tal:news_meeting>
-    <p class="news-more"><a href="news/meeting" target="_blank" title=""><img src="more-content.png" /></a></p>
+    </tal:meeting>
+    <p class="news-more"><a href="bulletin/meeting" target="_blank" title=""><img src="more-content.png" /></a></p>
   </li>
 </div>
 <div class="col_1_3">
   <li><div class="news-title4" i18n:translate="">Board</div>
-    <tal:news_board
-     tal:repeat="item view/news_board">
+    <tal:board
+     tal:repeat="item view/board">
     <div class="news-list">
       <a href=""
        tal:attributes="href python:item[2];
@@ -76,14 +76,14 @@
       </a>		   
       <span class="news-date" tal:content="python:item[1]">Date</span>
     </div>
-    </tal:news_board>
-    <p class="news-more"><a href="news/board" target="_blank" title=""><img src="more-content.png" /></a></p>
+    </tal:board>
+    <p class="news-more"><a href="bulletin/board" target="_blank" title=""><img src="more-content.png" /></a></p>
   </li>
 </div>
 <div class="col_1_3 last">
   <li><div class="news-title5" i18n:translate="">Christian</div>
-    <tal:news_christian
-     tal:repeat="item view/news_christian">
+    <tal:christian
+     tal:repeat="item view/christian">
     <div class="news-list">
       <a href=""
        tal:attributes="href python:item[2];
@@ -92,8 +92,8 @@
       </a>		   
       <span class="news-date" tal:content="python:item[1]">Date</span>
     </div>
-    </tal:news_christian>
-    <p class="news-more"><a href="news/christian" target="_blank" title=""><img src="more-content.png" /></a></p>
+    </tal:christian>
+    <p class="news-more"><a href="bulletin/christian" target="_blank" title=""><img src="more-content.png" /></a></p>
   </li>
 </div>
 </ul>

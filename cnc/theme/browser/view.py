@@ -16,12 +16,12 @@ class Homepage(BrowserView):
     implements(IHomepage)
     
     @memoize
-    def news_bulletin(self):
+    def events(self):
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
-        path = portal_state.navigation_root_path() + '/news/bulletin'
+        path = portal_state.navigation_root_path() + '/bulletin/events'
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
@@ -35,12 +35,12 @@ class Homepage(BrowserView):
         return res
 
     @memoize
-    def news_communion(self):
+    def communion(self):
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
-        path = portal_state.navigation_root_path() + '/news/communion'
+        path = portal_state.navigation_root_path() + '/bulletin/communion'
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
@@ -54,12 +54,12 @@ class Homepage(BrowserView):
         return res
 
     @memoize
-    def news_meeting(self):
+    def meeting(self):
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
-        path = portal_state.navigation_root_path() + '/news/meeting'
+        path = portal_state.navigation_root_path() + '/bulletin/meeting'
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
@@ -73,12 +73,12 @@ class Homepage(BrowserView):
         return res
 
     @memoize
-    def news_board(self):
+    def board(self):
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
-        path = portal_state.navigation_root_path() + '/news/board'
+        path = portal_state.navigation_root_path() + '/bulletin/board'
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
@@ -92,12 +92,12 @@ class Homepage(BrowserView):
         return res
 
     @memoize
-    def news_christian(self):
+    def christian(self):
         context = aq_inner(self.context)
         catalog = getToolByName(context, 'portal_catalog')
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
-        path = portal_state.navigation_root_path() + '/news/christian'
+        path = portal_state.navigation_root_path() + '/bulletin/christian'
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
