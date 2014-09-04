@@ -2,6 +2,18 @@
 <object name="portal_css" meta_type="Stylesheets Registry">
 
   <stylesheet
+    id="++theme++cnc.theme/css/dropdown.css"
+    insert-after="*"
+    cacheable="True"
+    compression="safe"
+    cookable="True"
+    enabled="on"
+    expression=""
+    media="screen"
+    rel="stylesheet"
+    rendering="link" />
+
+  <stylesheet
     id="chinan.css"
     insert-before="ploneCustom.css"
     cacheable="True"

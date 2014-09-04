@@ -1,0 +1,211 @@
+<div id="themenu" i18n:domain="cnc.theme">
+  <div id="navbar-wrapper" >
+    <nav id="mainMenu" class="tencol last">
+    <a class="toggleMenu" href="#" style="display: none">Menu<span class="expandicon"><img src="/++theme++cnc.theme/img/menu-expand.png"></span></a>
+    <ul class="nav" style="display: block;"
+     tal:define="root context/@@plone_portal_state/navigation_root_url;">
+    <li class="">
+    <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/organization"
+     i18n:translate="">Organization</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/organization/pastors"
+       i18n:translate="">Pastors</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/organization/presbyterian"
+       i18n:translate="">Presbyterian</a></li>
+      </ul>
+    </li>
+    <li class="">
+    <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/bulletin"
+     i18n:translate="">Bulletin</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/events"
+       i18n:translate="">Events</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/communion"
+       i18n:translate="">Communion</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/meeting"
+       i18n:translate="">Meeting</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/board"
+       i18n:translate="">Board</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/christian"
+       i18n:translate="">Christian</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/bulletin/bridge"
+       i18n:translate="">Bridge</a></li>
+      </ul>
+    </li>
+    <li class=""> <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/reunite"
+     i18n:translate="">Reunite</a></li>
+    <li class=""> <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/building"
+     i18n:translate="">Building</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/building/feature"
+       i18n:translate="">Feature</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/building/architecture"
+       i18n:translate="">Architecture</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/building/video"
+       i18n:translate="">Video</a></li>
+      </ul>
+    </li>
+    <li class=""> <a class="rootmenulink" href="#"
+     tal:attributes="href string:${root}/pray"
+     i18n:translate="">Pray</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/job"
+       i18n:translate="">Job</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/health"
+       i18n:translate="">Health</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/family"
+       i18n:translate="">Family</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/relation"
+       i18n:translate="">Relation</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/faith"
+       i18n:translate="">Faith</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/pray/thanks"
+       i18n:translate="">Thanks</a></li>
+      </ul>
+    </li>
+    <li class=""> <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/testimony"
+     i18n:translate="">Testimony</a></li>
+    <li class="">
+    <a class="rootmenulink parent" href="#"
+     tal:attributes="href string:${root}/faq"
+     i18n:translate="">FAQ</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/term"
+       i18n:translate="">Term</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/baptism"
+       i18n:translate="">Baptism</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/communion"
+       i18n:translate="">Communion</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/god"
+       i18n:translate="">God</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/jesus"
+       i18n:translate="">Jesus</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/trial"
+       i18n:translate="">Trial</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/prayer"
+       i18n:translate="">Prayer</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/marriage"
+       i18n:translate="">Marriage</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/funeral"
+       i18n:translate="">Funeral</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/heaven_hell"
+       i18n:translate="">Heaven and Hell</a></li>
+      </ul>
+    </li>
+    <li class="">
+    <a class="rootmenulink" href="#"
+     tal:attributes="href string:${root}/ceremony"
+     i18n:translate="">Ceremony</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/ceremony/worship"
+       i18n:translate="">Worship</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/ceremony/baptism"
+       i18n:translate="">Baptism</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/ceremony/communion"
+       i18n:translate="">Communion</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/funeral"
+       i18n:translate="">Funeral</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/faq/wedding"
+       i18n:translate="">Wedding</a></li>
+      </ul>
+    </li>
+    <li class="">
+    <a class="rootmenulink" href="#"
+     tal:attributes="href string:${root}/history"
+     i18n:translate="">History</a>
+      <ul class="submenu">
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/history/story"
+       i18n:translate="">Story</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/history/laijohn"
+       i18n:translate="">Lai John</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/history/riddles"
+       i18n:translate="">Riddles</a></li>
+      <li class="menuitem">
+      <a class="menulink" href="#"
+       tal:attributes="href string:${root}/history/bible"
+       i18n:translate="">Bible</a></li>
+      </ul>
+    </li>
+    <li class="">
+    <a class="rootmenulink" href="#"
+     tal:attributes="href string:${root}/contact"
+     i18n:translate="">Contact</a></li>
+    </ul>
+    </nav>
+  </div>
+</div>

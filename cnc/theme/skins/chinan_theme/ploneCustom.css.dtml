@@ -369,14 +369,14 @@ dl.actionMenu.activated dd {
   padding-top: 10px;
 }
 .news-item {
-  background: url("images/pnt-round.gif") no-repeat scroll 0 0 transparent;
+  background: url("/++theme++cnc.theme/img/dot-grey.png") no-repeat scroll 0 0 transparent;
   padding-left: 1.3em;
   border-bottom: 1px #ddd dotted;
   margin-bottom: 5px;
   padding-bottom: 3px;
 }
 .news-list {
-  background: url("images/pnt-round.gif") no-repeat scroll 0 0 transparent;
+  background: url("/++theme++cnc.theme/img/dot-grey.png") no-repeat scroll 0 0 transparent;
   border-bottom: 1px dotted #DDDDDD;
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -949,9 +949,6 @@ ul.listing-columns li .component a, ul.listing-columns li .component span {
 }
 .ts-menu a.signout {
 }
-nav {
-  z-index: 90;
-}
 .tencol {
   float: left;
   min-height: 1px;
@@ -975,91 +972,6 @@ a.toggleMenu, .nav a {
   margin: 0;
   padding: 0;
   z-index: 99;
-}
-nav {
-  overflow: visible !important;
-}
-.nav {
-  border-bottom: 2px solid #444444;
-  list-style: none outside none;
-}
-.nav:before, .nav:after {
-  content: " ";
-  display: table;
-}
-.nav:after {
-  clear: both;
-}
-.nav ul {
-  clear: both;
-  display: block;
-  list-style: none outside none;
-  margin-top: 0;
-  width: 14em;
-}
-.nav a {
-  background-color: #FFFFFF;
-  color: #444444;
-  font-family: "Open Sans", "微軟正黑體", sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  line-height: 3em;
-  margin-right: 50px;
-}
-.nav a:hover, .nav li:hover > a {
-  color: #CC0000;
-  text-decoration: none;
-}
-.nav li {
-  position: relative;
-}
-.nav > li {
-  float: left;
-}
-.nav > li > .parent {
-  background-position: right center;
-  background-repeat: no-repeat;
-  padding-right: 5px;
-}
-.nav > li > a {
-  display: block;
-}
-.nav li ul {
-  left: -9999px;
-  position: absolute;
-}
-.nav > li.hover > ul {
-  left: 0;
-}
-.nav li li.hover ul {
-  left: 100%;
-  top: 0;
-}
-.nav li li a {
-  display: inline-block;
-}
-.nav li li a {
-  background: none repeat scroll 0 0 #DEDEDE;
-  border-top: 1px solid #EEEEEE;
-  color: #333333;
-  display: block;
-  font-weight: normal;
-  line-height: 1.6em;
-  padding-bottom: 6px;
-  padding-left: 15px;
-  padding-top: 6px;
-  position: relative;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-}
-.nav li li li a {
-  background: none repeat scroll 0 0 #CCCCCC;
-  border-top: 1px solid #1E1F20;
-  z-index: 200;
-}
-.nav li li a:hover {
-  background: none repeat scroll 0 0 #EAEAEA;
 }
 .fb-like {
   clear: both;

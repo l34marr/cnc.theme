@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-28 06:32+0000\n"
+"POT-Creation-Date: 2014-09-03 13:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,177 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: cnc.theme\n"
 
+#: ./browser/sections.pt:65
+msgid "Architecture"
+msgstr ""
+
+#: ./browser/sections.pt:117
+msgid "Baptism"
+msgstr ""
+
+#: ./browser/sections.pt:199
+msgid "Bible"
+msgstr ""
+
 #: ./browser/homepage.pt:68
+#: ./browser/sections.pt:40
 msgid "Board"
 msgstr ""
 
+#: ./browser/sections.pt:48
+msgid "Bridge"
+msgstr ""
+
+#: ./browser/sections.pt:56
+msgid "Building"
+msgstr ""
+
 #: ./browser/homepage.pt:20
+#: ./browser/sections.pt:23
 msgid "Bulletin"
 msgstr ""
 
+#: ./browser/sections.pt:155
+msgid "Ceremony"
+msgstr ""
+
 #: ./browser/homepage.pt:84
+#: ./browser/sections.pt:44
 msgid "Christian"
 msgstr ""
 
 #: ./browser/homepage.pt:36
+#: ./browser/sections.pt:32
 msgid "Communion"
 msgstr ""
 
+#: ./browser/sections.pt:205
+msgid "Contact"
+msgstr ""
+
+#: ./browser/sections.pt:28
+msgid "Events"
+msgstr ""
+
+#: ./browser/sections.pt:108
+msgid "FAQ"
+msgstr ""
+
+#: ./browser/sections.pt:95
+msgid "Faith"
+msgstr ""
+
+#: ./browser/sections.pt:87
+msgid "Family"
+msgstr ""
+
+#: ./browser/sections.pt:61
+msgid "Feature"
+msgstr ""
+
+#: ./browser/sections.pt:145
+msgid "Funeral"
+msgstr ""
+
+#: ./browser/sections.pt:125
+msgid "God"
+msgstr ""
+
+#: ./browser/sections.pt:83
+msgid "Health"
+msgstr ""
+
+#: ./browser/sections.pt:149
+msgid "Heaven and Hell"
+msgstr ""
+
+#: ./browser/sections.pt:182
+msgid "History"
+msgstr ""
+
+#: ./browser/sections.pt:129
+msgid "Jesus"
+msgstr ""
+
+#: ./browser/sections.pt:79
+msgid "Job"
+msgstr ""
+
+#: ./browser/sections.pt:191
+msgid "Lai John"
+msgstr ""
+
+#: ./browser/sections.pt:141
+msgid "Marriage"
+msgstr ""
+
 #: ./browser/homepage.pt:52
+#: ./browser/sections.pt:36
 msgid "Meeting"
+msgstr ""
+
+#: ./browser/sections.pt:8
+msgid "Organization"
+msgstr ""
+
+#: ./browser/sections.pt:13
+msgid "Pastors"
+msgstr ""
+
+#: ./browser/sections.pt:74
+msgid "Pray"
+msgstr ""
+
+#: ./browser/sections.pt:137
+msgid "Prayer"
+msgstr ""
+
+#: ./browser/sections.pt:17
+msgid "Presbyterian"
+msgstr ""
+
+#: ./browser/sections.pt:91
+msgid "Relation"
+msgstr ""
+
+#: ./browser/sections.pt:53
+msgid "Reunite"
+msgstr ""
+
+#: ./browser/sections.pt:195
+msgid "Riddles"
+msgstr ""
+
+#: ./browser/sections.pt:187
+msgid "Story"
+msgstr ""
+
+#: ./browser/sections.pt:113
+msgid "Term"
+msgstr ""
+
+#: ./browser/sections.pt:104
+msgid "Testimony"
+msgstr ""
+
+#: ./browser/sections.pt:99
+msgid "Thanks"
+msgstr ""
+
+#: ./browser/sections.pt:133
+msgid "Trial"
+msgstr ""
+
+#: ./browser/sections.pt:69
+msgid "Video"
+msgstr ""
+
+#: ./browser/sections.pt:176
+msgid "Wedding"
+msgstr ""
+
+#: ./browser/sections.pt:160
+msgid "Worship"
 msgstr ""
 
 #. Default: "Recent News"
