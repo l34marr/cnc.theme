@@ -119,8 +119,8 @@
        i18n:translate="">Baptism</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
-       tal:attributes="href string:${root}/faq/communion"
-       i18n:translate="">Communion</a></li>
+       tal:attributes="href string:${root}/faq/eucharist"
+       i18n:translate="">Eucharist</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
        tal:attributes="href string:${root}/faq/god"
@@ -143,8 +143,8 @@
        i18n:translate="">Marriage</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
-       tal:attributes="href string:${root}/faq/funeral"
-       i18n:translate="">Funeral</a></li>
+       tal:attributes="href string:${root}/faq/memorial"
+       i18n:translate="">Memorial</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
        tal:attributes="href string:${root}/faq/heaven_hell"
@@ -166,15 +166,15 @@
        i18n:translate="">Baptism</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
-       tal:attributes="href string:${root}/ceremony/communion"
-       i18n:translate="">Communion</a></li>
+       tal:attributes="href string:${root}/ceremony/eucharist"
+       i18n:translate="">Eucharist</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
-       tal:attributes="href string:${root}/faq/funeral"
+       tal:attributes="href string:${root}/ceremony/funeral"
        i18n:translate="">Funeral</a></li>
       <li class="menuitem">
       <a class="menulink" href="#"
-       tal:attributes="href string:${root}/faq/wedding"
+       tal:attributes="href string:${root}/ceremony/wedding"
        i18n:translate="">Wedding</a></li>
       </ul>
     </li>

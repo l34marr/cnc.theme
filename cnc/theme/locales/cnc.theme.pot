@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-03 13:32+0000\n"
+"POT-Creation-Date: 2014-09-24 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,6 +65,10 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
+#: ./browser/sections.pt:168
+msgid "Eucharist"
+msgstr ""
+
 #: ./browser/sections.pt:28
 msgid "Events"
 msgstr ""
@@ -85,7 +89,7 @@ msgstr ""
 msgid "Feature"
 msgstr ""
 
-#: ./browser/sections.pt:145
+#: ./browser/sections.pt:172
 msgid "Funeral"
 msgstr ""
 
@@ -124,6 +128,10 @@ msgstr ""
 #: ./browser/homepage.pt:52
 #: ./browser/sections.pt:36
 msgid "Meeting"
+msgstr ""
+
+#: ./browser/sections.pt:145
+msgid "Memorial"
 msgstr ""
 
 #: ./browser/sections.pt:8
