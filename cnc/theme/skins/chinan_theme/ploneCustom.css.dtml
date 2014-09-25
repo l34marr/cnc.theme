@@ -1586,6 +1586,17 @@ div.listingBar a:hover {
   margin-top: 5px;
   padding: 3px 0 3px 10px;
 }
+.subsection-events-aggregator h1.documentFirstHeading {
+  background-color: #C36F19;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 3px 0 3px 10px;
+}
 .subsection-communion h1.documentFirstHeading {
   background-color: #8F910F;
   border-radius: 4px 4px 4px 4px;
