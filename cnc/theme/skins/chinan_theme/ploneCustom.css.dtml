@@ -6,7 +6,7 @@ h1 {
 }
 h2 {
   color: #453C34;
-  font-size: 20px;
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 h3 {
