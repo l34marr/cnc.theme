@@ -630,6 +630,7 @@ dl.portlet dt {
   display: inline-block;
   margin-top: 5px;
   padding-left: 18px;
+  font-size: 12px;
 }
 .tileFooter span {
   color: #666666;
@@ -1275,12 +1276,13 @@ cite {
 .ploneCalendar td {
   background-color: rgba(0, 0, 0, 0);
   padding: 4px;
+  border: 1px solid #fff;
   text-align: center;
   width: 14%;
 }
 .ploneCalendar {
   border-spacing: 0;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   width: 100%;
 }
 .ploneCalendar .todaynoevent {
@@ -1288,7 +1290,15 @@ cite {
 }
 .ploneCalendar .event {
   background-color: #ece8db;
-  font-weight: bold;
+  font-weight: normal;
+}
+.event.summary {
+    background-color: #eee;
+    clear: right;
+    float: right;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 10px;
 }
 /* =========================================================================== guess  Flexible Slide-to-top Accordion Style*/
 
@@ -1562,6 +1572,8 @@ input {
 }
 .tileHeadline {
   font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.05em;
 }
 div.listingBar a {
   background-color: #EEEEEE;
