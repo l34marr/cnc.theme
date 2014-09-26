@@ -775,8 +775,9 @@
 
 
 .csslider1 > .cs_description > label {
-	font: 20px 'Roboto', sans-serif;
+	font: bold 15px 'Roboto', sans-serif;
 	line-height: normal;
+	letter-spacing: 0.05em;
 	bottom: 35px;
 	left: 20px;
 	top: auto;
