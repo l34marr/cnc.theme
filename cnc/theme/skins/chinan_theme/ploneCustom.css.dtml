@@ -92,7 +92,7 @@ input, textarea {
 #portal-columns {
   width: 990px;
   margin: 0 auto;
-  margin-top: 15px;
+  
 }
 #portal-footer-wrapper, #portal-footer {
   background: #3E2306;
