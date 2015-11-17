@@ -12,13 +12,13 @@
           <img class="alignleft MT0"
            tal:attributes="src string:${portal_url}/sunday-worship.jpg" /></a>
         <div class="block">
-          <p>■ 台語堂<br />
-            <span class="meeting-date">週日上午09:00~10:30</span></p>
-          <p>■ 華語堂<br />
-            <span class="meeting-date">週日上午09:00~10:30</span></p>
+          <p>■ 第一場禮拜(禮拜堂)<br />
+            <span class="meeting-date">週日上午 09:00~10:30</span></p>
+          <p>■ 第二場禮拜(教育中心2樓)<br />
+            <span class="meeting-date">週日上午 09:00~10:30</span></p>
 
-          <p>■ 兒童主日學<br />
-            <span class="meeting-date">週日上午09:00~10:45</span></p>
+          <p>■ 兒童主日學(教育中心11樓)<br />
+            <span class="meeting-date">週日上午08:50~10:25</span></p>
         </div>
       </div>
       <div class="foot-column last">
