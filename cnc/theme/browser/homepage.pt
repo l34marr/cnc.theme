@@ -98,6 +98,56 @@
 </div>
 </ul>
 
+<div class="column_5">
+  <div class="features">
+    <div class="title clearfix"><img alt="" class="alignleft" src="/++theme++cnc.theme/img/i_story.png" />
+      <h3><a class="internal-link" href="history/story" target="_self" title="">聖經故事</a></h3>
+    </div>
+    <p>經華文網股份有限公司首肯，部份內容擷取自...</p>
+    <p><span class="internal-link"><a class="internal-link" href="history/story" target="_self" title=""><img src="more-content.png" /></a> </span></p>
+  </div>
+</div>
+<div class="column_5">
+  <div class="features">
+    <div class="title clearfix"><img alt="" class="alignleft" src="/++theme++cnc.theme/img/i_ceremony.png" />
+      <h3><a class="internal-link" href="ceremony" target="_self" title="">基督>教儀式</a></h3>
+    </div>
+    <p>基督教儀式的含意<br />
+      <a class="internal-link" href="ceremony/worship" target="_self" title="">>禮拜</a>│<a class="internal-link" href="ceremony/baptism" target="_self" title="">洗禮</a>│<a class="internal-link" href="ceremony/communion" target="_self" title="">聖餐</a>│<a class="internal-link" href="ceremony/funeral" target="_self" title="">喪禮</a>│<a class="internal-link" href="ceremony/wedding" target="_self" title="">婚禮</a></p>
+    <p><span class="internal-link"><a class="internal-link" href="ceremony" target="_self" title=""><img src="more-content.png" /></a> </span></p>
+  </div>
+</div>
+<div class="column_5">
+  <div class="features">
+    <div class="title clearfix"><img alt="" class="alignleft" src="/++theme++cnc.theme/img/i_pray.png" />
+      <h3><a class="internal-link" href="pray" target="_self" title="">禱告站</a></h3>
+    </div>
+    <p>也許您還不認識那位又真又活，充滿大能慈愛的主...</p>
+    <p><span class="internal-link"><a class="internal-link" href="pray" target="_self" title=""><img src="more-content.png" /></a> </span></p>
+  </div>
+  </div>
+</div>
+<div class="column_5">
+  <div class="features">
+    <div class="title clearfix"><img alt="" class="alignleft" src="/++theme++cnc.theme/img/i_testimony.png" />
+      <h3><a class="internal-link" href="testimony" target="_self" title="">生命
+的見證</a></h3>
+    </div>
+    <p>在患難中我信，我依然相信! 在患難時 主 我全然依靠你 ...</p>
+    <p><span class="internal-link"><a class="internal-link" href="testimony" target="_self" title=""><img src="more-content.png" /></a> </span></p>
+  </div>
+</div>
+<div class="column_5 last">
+  <div class="features">
+    <div class="title clearfix"><img alt="" class="alignleft" src="/++theme++cnc.theme/img/i_faq.png" />
+      <h3><a class="internal-link" href="faq" target="_self" title="">生活信仰問
+答</a></h3>
+    </div>
+    <p>基督教常用名詞、洗禮、聖餐、禱告、罪及審判...</p>
+    <p><span class="internal-link"><a class="internal-link" href="faq" target="_self" title=""><img src="more-content.png" /></a> </span></p>
+  </div>
+</div>
+
   </metal:content-core>
 </metal:content-core>
 
