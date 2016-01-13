@@ -22,15 +22,15 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/bulletin/events'
-        brain = catalog(portal_type='Event',
+        brain = catalog(portal_type=['Event','News Item'],
                         review_state='published',
                         path=path,
-                        sort_on='start',
+                        sort_on='created',
                         sort_order='reverse',
                         sort_limit=3)[:3]
         res = []
         for b in brain:
-            sdate = str(b.start)[:10].replace('/','-')
+            sdate = str(b.created)[:10].replace('/','-')
             res.append((b.Title, sdate, b.getURL()))
         return res
 
