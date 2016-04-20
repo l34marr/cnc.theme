@@ -46,7 +46,7 @@
 
   <browser:page
     name="homepage"
-    for="plone.app.contenttypes.interfaces.IDocument"
+    for="*"
     class=".view.Homepage"
     template="homepage.pt"
     permission="zope2.View" />
