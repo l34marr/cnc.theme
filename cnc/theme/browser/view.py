@@ -1,3 +1,4 @@
+from DateTime import DateTime
 from zope.interface import implements
 from zope.component import getMultiAdapter
 from Acquisition import aq_inner
@@ -41,9 +42,13 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/bulletin/communion'
+        start = DateTime("2015/01/01")
+        end = DateTime() + 10
+        date_range_query = {'query': (start, end), 'range': 'min:max'}
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
+                        start=date_range_query,
                         sort_on='start',
                         sort_order='reverse',
                         sort_limit=3)[:3]
@@ -60,9 +65,13 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/bulletin/meeting'
+        start = DateTime("2015/01/01")
+        end = DateTime() + 10
+        date_range_query = {'query': (start, end), 'range': 'min:max'}
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
+                        start=date_range_query,
                         sort_on='start',
                         sort_order='reverse',
                         sort_limit=3)[:3]
@@ -79,9 +88,13 @@ class Homepage(BrowserView):
         portal_state = getMultiAdapter((context, self.request),
             name=u'plone_portal_state')
         path = portal_state.navigation_root_path() + '/bulletin/board'
+        start = DateTime("2015/01/01")
+        end = DateTime() + 10
+        date_range_query = {'query': (start, end), 'range': 'min:max'}
         brain = catalog(portal_type='Event',
                         review_state='published',
                         path=path,
+                        start=date_range_query,
                         sort_on='start',
                         sort_order='reverse',
                         sort_limit=3)[:3]
