@@ -9,7 +9,7 @@
         <div class="clear padding3"></div>
         <a href="#"
          tal:attributes="href string:${portal_url}/reunite/meet">
-          <img class="alignleft MT0"
+          <img class="MT0" style="float: right"
            tal:attributes="src string:${portal_url}/sunday-worship.jpg" /></a>
         <div class="block">
           <p>■ 第一場禮拜(禮拜堂)<br />
